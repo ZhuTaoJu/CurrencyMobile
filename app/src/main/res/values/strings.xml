@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">意达通</string>
+    <string name="title_home">Home</string>
+    <string name="title_demo">Demo</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="jump">跳转</string>
+    <string name="play_event">play_event</string>
+    <string name="pause_event">pause_event</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="RtvwNtfcationGuard">:RtvwNtfcationGuard</string>
+    <string name="RtvwNtfcation">:RtvwNtfcation</string>
+    <string name="accessibility_service_description">accessibility_service_description</string>
+</resources>
