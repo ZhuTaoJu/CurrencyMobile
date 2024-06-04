@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>testJs_htmls</title>
+
+    <script>
+        function android2Js(){
+            alert("Android调用了JS的android2Js方法");
+        }
+        function callAndroid(){
+            //映射调用，appMap为映射对象。
+            appMap.helloAndroid("js调用了android中的helloAndroid方法");
+        }
+        function callAndroidForeVc(){
+            /*约定的url协议为：js://webview?arg1=vc1&arg2=vc2*/
+            document.location = "js://webview?arg1=vc1&arg2=vc2";
+        }
+    </script>
+</head>
+<body>
+<div style="background-color:#9a7e7e;height:500px;width:500px">
+    <button style="height:100px;width:100px;" type="button" id="toAndroid" onclick="callAndroid()">点击调用移动端方法</button>
+    <button style="height:100px;width:100px;" type="button" id="toAndroidvc" onclick="callAndroidForeVc()">点击调用移动端vc方法</button>
+</div>
+
+</body>
+</html>
